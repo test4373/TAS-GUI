@@ -25,8 +25,26 @@ Modern Electron + React interface for AI-powered video enhancement toolkit speci
 
 ### Developer Setup (GUI Development Only)
 
-> ⚠️ **Important:** This setup is for **developing the GUI interface only**. 
-> To process videos, you need the full [TheAnimeScripter](https://github.com/NevermindNilas/TheAnimeScripter) installation or use the pre-built installer above.
+> ⚠️ **Important:** This setup is for **developing the GUI interface only**.
+> To process videos, you need to follow the steps below to enable video processing.
+
+### Enable Video Processing (For Developers)
+
+To enable video processing in development mode:
+
+1. Download the latest release ZIP from [TheAnimeScripter](https://github.com/NevermindNilas/TheAnimeScripter/releases)
+2. Extract the contents to: `new-gui/resources/`
+3. The folder structure should look like:
+   ```
+   new-gui/resources/
+   ├── main.py
+   ├── src/
+   ├── Lib/
+   ├── ffmpeg/
+   └── ...
+   ```
+4. Now you can run the app and process videos!
+
 ```bash
 cd new-gui
 
