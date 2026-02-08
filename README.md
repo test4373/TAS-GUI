@@ -21,7 +21,30 @@ Modern Electron + React interface for AI-powered video enhancement toolkit speci
 2. Run the installer
 3. Dependencies will be installed automatically on first launch
 
-### Developer Setup
+> **Note:** The installer includes all required dependencies (Python, FFmpeg, AI models, etc.) for video processing.
+
+### Developer Setup (GUI Development Only)
+
+> ⚠️ **Important:** This setup is for **developing the GUI interface only**.
+> To process videos, you need to follow the steps below to enable video processing.
+
+### Enable Video Processing (For Developers)
+
+To enable video processing in development mode:
+
+1. Download [resources.zip](https://github.com/SirJoseph3/TAS-GUI/releases/download/v1.0.0/resources.zip)
+2. Extract the contents to: `new-gui/resources/`
+3. The folder structure should look like:
+   ```
+   new-gui/resources/
+   ├── main.py
+   ├── src/
+   ├── Lib/
+   ├── ffmpeg/
+   └── ...
+   ```
+4. Now you can run the app and process videos!
+
 ```bash
 cd new-gui
 
