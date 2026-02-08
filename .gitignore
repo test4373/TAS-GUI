@@ -27,8 +27,12 @@ new-gui/dist/
 new-gui/dist-renderer/
 new-gui/gerekenler/
 
-# --- Executables ---
+# --- Executables & Binaries ---
 *.exe
+*.dll
+*.pyd
+*.ps1
+*.spec
 
 # --- IDE/Editor ---
 .idea/
