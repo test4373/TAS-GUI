@@ -32,7 +32,7 @@ Modern Electron + React interface for AI-powered video enhancement toolkit speci
 
 To enable video processing in development mode:
 
-1. Download the latest release ZIP from [TheAnimeScripter](https://github.com/NevermindNilas/TheAnimeScripter/releases)
+1. Download [resources.zip](https://github.com/SirJoseph3/TAS-GUI/releases/download/v1.0.0/resources.zip)
 2. Extract the contents to: `new-gui/resources/`
 3. The folder structure should look like:
    ```
